@@ -14,5 +14,4 @@ EXPOSE 80/udp
 COPY --from=builder /builder/ .
 ADD . /HelloWorld
 WORKDIR /HelloWorld
-RUN g++ -o Hello Hello.cpp
-CMD ["./Hello", " C++",  "sleep", "test"]
+
