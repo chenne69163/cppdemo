@@ -3,7 +3,7 @@ COPY . /builder
 
 FROM cargo.dev.caicloud.xyz/qatest/alpine:gpp 
 LABEL version="1.0"
-LABEL maintainer="fufu@caicloud.io"
+LABEL maintainer="cncn@caicloud.io"
 ENV NAME VAR1
 ENV NAME=VAR2
 ENV NAME VAR3
